@@ -24,6 +24,12 @@ A modern Customer Relationship Management (CRM) web application built using Reac
 * JavaScript (ES6+)
 * Local Storage API
 
+Live Demo:
+https://future-fs-02-tt6i.vercel.app/
+
+GitHub Repository:
+https://github.com/Tanmay2024/FUTURE_FS_02
+
 ## Project Structure
 
 src/
