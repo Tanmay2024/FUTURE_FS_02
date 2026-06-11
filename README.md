@@ -1,16 +1,92 @@
-# React + Vite
+# LeadFlow CRM
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern Customer Relationship Management (CRM) web application built using React.js and Tailwind CSS for managing leads efficiently.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+* Add New Leads
+* Edit Existing Leads
+* Delete Leads
+* Search Leads
+* Analytics Dashboard
+* Lead Status Tracking
+* Export Leads to CSV
+* Local Storage Persistence
+* Responsive User Interface
+* React Router Navigation
 
-## React Compiler
+## Tech Stack
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+* React.js
+* Tailwind CSS
+* React Router DOM
+* Recharts
+* JavaScript (ES6+)
+* Local Storage API
 
-## Expanding the ESLint configuration
+## Project Structure
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+src/
+├── components/
+│ ├── Dashboard.jsx
+│ ├── Sidebar.jsx
+│
+├── pages/
+│ ├── AddLead.jsx
+│ ├── EditLead.jsx
+│ ├── Analytics.jsx
+│
+├── App.jsx
+├── main.jsx
+
+## Installation
+
+1. Clone the repository
+
+git clone https://github.com/Tanmay2024/FUTURE_FS_02.git
+
+2. Navigate to project folder
+
+cd FUTURE_FS_02
+
+3. Install dependencies
+
+npm install
+
+4. Start development server
+
+npm run dev
+
+## Analytics
+
+The application provides:
+
+* Lead Distribution Pie Chart
+* Lead Status Bar Chart
+* Conversion Rate Calculation
+* Real-Time Lead Statistics
+
+## CRUD Operations
+
+* Create Leads
+* Read Leads
+* Update Leads
+* Delete Leads
+
+## Author
+
+Tanmay Guruvugari
+
+GitHub:
+https://github.com/Tanmay2024
+
+LinkedIn:
+https://www.linkedin.com/in/tanmay-guruvugari-480b71355
+
+## Future Improvements
+
+* Backend Integration
+* Authentication System
+* Database Connectivity
+* Email Notifications
+* Advanced Reporting
